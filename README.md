@@ -2,6 +2,8 @@
 
 [![hacs_badge](https://img.shields.io/badge/HACS-Default-orange.svg)](https://github.com/custom-components/hacs)
 
+# STOP. Please wait to try this until I remove this message!
+
 A theme for Home Assistant.
 
 It has two sub-themes. Which can be used for individual cards (See screenshot). These are not ment to be used as main theme.
@@ -11,4 +13,6 @@ It has two sub-themes. Which can be used for individual cards (See screenshot). 
 ## Screenshot
 ![Theme - Overview](docs/screenshot-1.jpg)
 
-This is my first project on GitHub. So bear with me if something goes wrong.
+I am not able to test this with all cards. So if you find something that looks wrong, please inform me.
+
+This is my first project on GitHub. So bear with me if something is not right.
