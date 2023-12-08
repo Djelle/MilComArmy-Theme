@@ -2,7 +2,8 @@
 
 [![hacs_badge](https://img.shields.io/badge/HACS-Default-orange.svg)](https://github.com/custom-components/hacs)
 
-# STOP. Please wait to try this until I remove this message!
+# STOP
+## Please wait to try this until I remove this message! I need to test a few things.
 
 A theme for Home Assistant.
 
