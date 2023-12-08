@@ -1,0 +1,206 @@
+MilCom Army:
+  
+  # FONTS
+  #primary-font-family: 'Comfortaa'
+  #paper-font-common-base_-_font-family: "var(--primary-font-family)"
+  #paper-font-common-code_-_font-family: "var(--primary-font-family)"
+  #paper-font-body1_-_font-family: "var(--primary-font-family)"
+  #paper-font-subhead_-_font-family: "var(--primary-font-family)"
+  #paper-font-headline_-_font-family: "var(--primary-font-family)"
+  #paper-font-caption_-_font-family: "var(--primary-font-family)"
+  #paper-font-title_-_font-family: "var(--primary-font-family)"
+
+  # VAADIN TYPOGRAPHY
+  #material-h6-font-size: 1.25rem
+  #material-small-font-size: 0.875rem
+  #material-caption-font-size: 0.75rem
+  #material-button-font-size: 0.875rem
+
+  # TEXT
+  primary-text-color: "#e2e7c7"
+  secondary-text-color: "#ffffff"
+  #text-primary-color: var(--primary-text-color)
+  #text-light-primary-color: "#ff00ff"
+  disabled-text-color: "#8d907c"
+  
+  mdc-theme-primary: var(--secondary-text-color) #Text-Button no-background (some places background, others text)
+  mdc-theme-on-primary: "#222222" #Text-Button no-background (text)
+  #mdc-theme-secondary: var(--accent-color) # Text-buttons
+  mdc-theme-on-secondary: "#222222" # Text-buttons
+
+  # MAIN INTERFACE COLORS
+  primary-color: "#eee148" # Links
+  #dark-primary-color: "#ff00ff"
+  #light-primary-color: "#ff00ff"
+  accent-color: "#eee148"
+  divider-color: rgba(0, 0, 0, 0.7)
+
+  scrollbar-thumb-color: "#cccccc"
+
+  error-color: "#f4251b"
+  warning-color: "#f4911b"
+  success-color: "#12a029"
+  info-color: "#cccccc"
+
+  # GOOGLE MAP
+  #map-filter: invert(.9) hue-rotate(170deg) brightness(1.5) contrast(1.2) saturate(.3) # Original
+  map-filter: invert(0.85) hue-rotate(150deg) brightness(1.4) contrast(1.6) saturate(0.4)
+
+  # BACKGROUNDS
+  lovelace-background: "center / auto no-repeat fixed url('/hacsfiles/themes/milcomarmy/milcom-bg.png'), #333333"
+  primary-background-color: "#20231c"
+  table-row-background-color: var(--card-background-color)
+  secondary-background-color: var(--table-row-background-color) # Behind the cards on state
+  app-header-background-color: "#404045" # BG Top Bar
+
+  # SIDEBAR MENU
+  sidebar-background-color: "#20231c"
+  sidebar-icon-color: var(--secondary-text-color)
+  sidebar-text-color: var(--primary-text-color)
+  sidebar-selected-background-color: var(--sidebar-background-color)
+  sidebar-selected-icon-color: var(--accent-color)
+  sidebar-selected-text-color: var(--secondary-text-color)
+
+  # SLIDERS (from Kibibit)
+  #paper-slider-knob-color: "#FFF"
+  #paper-slider-knob-start-color: var(--paper-slider-knob-color)
+  #paper-slider-pin-color: var(--paper-slider-knob-color)
+  #paper-slider-active-color: "#0984ff"
+  #paper-slider-secondary-color: var(--paper-slider-knob-color)
+  #paper-slider-container-color: rgba(255, 255, 255, 0.5)
+  #paper-slider-font-color: "#000"
+  #ha-slider-background: none !important
+
+  # CARDS
+  #ha-card-border-radius: 12px
+  ha-card-background: "center / auto repeat url('/hacsfiles/themes/milcomarmy/milcomarmy-card.png')"
+  ha-card-border-width: 2px
+  ha-card-border-color: "rgba(206,213,146,0.4) rgba(32,35,28,0.8) rgba(32,35,28,1.0) rgba(206,213,146,0.2)"
+  card-background-color: "#5a5f49"
+  ###ha-card-box-shadow: "-5px -10px 20px 0px rgba(0,0,0,.4) inset"
+  ha-card-box-shadow: "1px 2px 4px 0px #000"
+
+  # LABEL-BADGES
+  #label-badge-background-color: var(--card-background-color)
+  label-badge-text-color: var(--secondary-text-color)
+  #label-badge-red: #var(--error-color)
+  #label-badge-blue: #var(--info-color)
+  #label-badge-green: #var(--success-color)
+  #label-badge-yellow: #var(--warning-color)
+  label-badge-grey: var(--disabled-text-color)
+
+  # STATES
+  state-icon-color: var(--secondary-text-color)
+  state-icon-active-color: var(--accent-color) # An active state is anything that would require attention
+  state-icon-error-color: var(--error-color) # An error state is anything that would be considered an error
+  #state-on-color: "#66a61e"
+  #state-off-color: "#f4251b"
+  #state-home-color: "#66a61e"
+  #state-not_home-color: "#f4251b"
+  #state-unavailable-color: "#a0a0a0" Derived from disabled-text-color
+  #state-unknown-color: "#606060"
+  #state-idle-color: "#7990a3"
+
+  # TOGGLES (from Kibibit)
+  #paper-toggle-button-checked-button-color: "#484848"
+  #paper-toggle-button-checked-bar-color: "#484848"
+  #paper-toggle-button-unchecked-button-color: var(--paper-toggle-button-checked-button-color)
+  #paper-toggle-button-unchecked-bar-color: var(--disabled-text-color)
+
+  # SWITCHES (from Kibibit)
+  switch-checked-color: var(--accent-color)
+  switch-checked-track-color: "#000000" #var(--switch-checked-color)
+  #switch-checked-button-color: var(--switch-checked-color)
+  switch-unchecked-color: var(--secondary-text-color)
+  #switch-unchecked-button-color: var(--switch-unchecked-color)
+  switch-unchecked-track-color: "#000000" #var(--switch-unchecked-color)
+
+  # MISC FIELDS
+  #outline-color:
+  mdc-checkbox-checked-color: "#222222"
+  mdc-checkbox-unchecked-color: "#222222" #rgba(var(--rgb-primary-text-color), 0.54)
+  #mdc-checkbox-disabled-color: var(--disabled-text-color)
+
+  # INPUT FIELDS
+  input-fill-color: "#20231c"
+  input-ink-color: "#e2e7c7"
+  input-label-ink-color: "#ffffff"
+  input-dropdown-icon-color: var(--input-ink-color)
+  input-disabled-fill-color: var(--input-fill-color)
+  input-disabled-ink-color: var(--disabled-text-color)
+  #input-idle-line-color: rgba(0, 0, 0, 0.42);
+  #input-hover-line-color: #rgba(0, 0, 0, 0.87);
+  #input-disabled-line-color: rgba(0, 0, 0, 0.06);
+  #input-outlined-idle-border-color: rgba(0, 0, 0, 0.38);
+  #input-outlined-hover-border-color: rgba(0, 0, 0, 0.87);
+  #input-outlined-disabled-border-color: rgba(0, 0, 0, 0.06);
+
+  # SELECT FIELDS
+  mdc-select-fill-color: var(--input-fill-color)
+  #mdc-select-disabled-fill-color: var(--input-disabled-fill-color)
+  #mdc-select-ink-color: var(--input-ink-color) # Text
+  #mdc-select-label-ink-color: var(--input-label-ink-color)
+  #mdc-select-disabled-ink-color: var(--input-disabled-ink-color)
+  #mdc-select-dropdown-icon-color: var(--input-dropdown-icon-color)
+  #mdc-select-disabled-dropdown-icon-color: var(--input-disabled-ink-color)
+  #mdc-select-idle-line-color: var(--input-idle-line-color)
+  #mdc-select-outlined-idle-border-color: var(--input-outlined-idle-border-color)
+  #mdc-select-outlined-hover-border-color: var(--input-outlined-hover-border-color)
+  #mdc-select-outlined-disabled-border-color: var(--input-outlined-disabled-border-color)
+
+  # OTHER (from Kibibit)
+  #paper-dialog-background-color: rgba(55, 55, 55, 0.6)
+  #paper-item-icon-color: white  # also should mini-media-player icon white (but doesn't work by itself)
+  #more-info-header-background: rgba(25, 25, 25, 0.5)
+  
+  # CLIMATE STATE COLORS
+  #state-climate-auto-color: #008000;
+  #state-climate-eco-color: #00ff7f;
+  #state-climate-cool-color: #2b9af9;
+  #state-climate-heat-color: #ff8100;
+  #state-climate-manual-color: #44739e;
+  #state-climate-off-color: #8a8a8a;
+  #state-climate-fan_only-color: #8a8a8a;
+  #state-climate-dry-color: #efbd07;
+  #state-climate-idle-color: #8a8a8a;
+
+  # ENERGY
+  #energy-grid-consumption-color: #488fc2;
+  #energy-grid-return-color: #8353d1;
+  #energy-solar-color: #ff9800;
+  #energy-non-fossil-color: #0f9d58;
+  #energy-battery-out-color: #4db6ac;
+  #energy-battery-in-color: #f06292;
+  #energy-gas-color: #8E021B;
+
+  # OPACITY FOR DARK TEXT ON A LIGHT BACKGROUND
+  #dark-divider-opacity: 0.12;
+  #dark-disabled-opacity: 0.38; /* or hint text or icon */
+  #dark-secondary-opacity: 0.54;
+  #dark-primary-opacity: 0.87;
+
+  # OPACITY FOR LIGHT TEXT ON A DARK BACKGROUND
+  #light-divider-opacity: 0.12;
+  #light-disabled-opacity: 0.3; /* or hint text or icon */
+  #light-secondary-opacity: 0.7;
+  #light-primary-opacity: 1.0;
+
+  # RGB
+  #rgb-primary-color: 3, 169, 244;
+  #rgb-accent-color: 255, 152, 0;
+  #rgb-primary-text-color: 33, 33, 33;
+  #rgb-secondary-text-color: 114, 114, 114;
+  #rgb-text-primary-color: 255, 255, 255;
+  #rgb-card-background-color: 255, 255, 255;
+
+MilCom Army CARD2:
+  ha-card-background: "center / auto repeat url('/hacsfiles/themes/milcomarmy/milcomarmy-card-alt1.png')"
+  ha-card-border-color: "rgba(255,255,255,0.4) rgba(20,20,20,0.8) rgba(20,20,20,1.0) rgba(255,255,255,0.2)"
+  ha-card-border-width: 2px
+  card-background-color: "#333333"
+
+MilCom Army CARD3:
+  ha-card-background: "center / auto repeat url('/hacsfiles/themes/milcomarmy/milcomarmy-card-alt2.png')"
+  ha-card-border-width: 2px
+  ha-card-border-color: "rgba(206,213,146,0.4) rgba(32,35,28,0.8) rgba(32,35,28,1.0) rgba(206,213,146,0.2)"
+  card-background-color: "#5a5f49"
