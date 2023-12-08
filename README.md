@@ -7,7 +7,7 @@
 
 ### Overview
 
-![Theme - Overview](https://raw.githubusercontent.com/home-assistant-community-themes/template/master/docs/theme-overview.png)
+![Theme - Overview](docs/screenshot-1.jpg)
 
 ### Map
 
