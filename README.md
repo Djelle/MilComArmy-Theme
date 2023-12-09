@@ -6,6 +6,8 @@
 
 A theme for Home Assistant.
 
+Install via Hacs.
+
 It has two sub-themes. Which can be used for individual cards (See screenshot). These are not ment to be used as main theme.
 - CARD2: A gray background
 - CARD3: A lighter green with more texture.
