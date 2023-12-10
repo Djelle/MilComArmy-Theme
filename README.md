@@ -1,5 +1,3 @@
-[![hacs_badge](https://img.shields.io/badge/HACS-Default-orange.svg)](https://github.com/custom-components/hacs)
-
 # Military Communication - Army Green
 ## A theme for Home Assistant.
 
@@ -9,7 +7,7 @@ It has two sub-themes. Which can be used for individual cards (See screenshot). 
 - CARD2: A gray background
 - CARD3: A lighter green with more texture.
 
-Install via Hacs on Home Assistant.
+Install via Hacs on Home Assistant. Select “Custom repositories” in Hacs and paste in this link: https://github.com/Djelle/milcomarmy
 
 Or if you have to manually install it: Move/copy the image files to /www/milcomarmy/
 
