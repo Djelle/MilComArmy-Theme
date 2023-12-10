@@ -47,7 +47,6 @@ MilCom Army:
   # GOOGLE MAP
   #map-filter: invert(.9) hue-rotate(170deg) brightness(1.5) contrast(1.2) saturate(.3) # Original
   map-filter: invert(0.85) hue-rotate(150deg) brightness(1.4) contrast(1.6) saturate(0.4)
-  ###map-filter: invert(0.0) hue-rotate(340deg) brightness(0.45) contrast(6) saturate(0.6)
 
   # BACKGROUNDS
   lovelace-background: "center / auto no-repeat fixed url('/local/milcomarmy/milcom-bg.png'), center / auto no-repeat fixed url('https://raw.githubusercontent.com/Djelle/milcomarmy/main/themes/milcom-bg.png'), #333333"
@@ -211,13 +210,13 @@ MilCom Army:
   #weather-icon-windy-variant: url("/hacsfiles/themes/caule-themes-pack-1/windy-variant.svg")
   #weather-icon-exceptional: url("/hacsfiles/themes/caule-themes-pack-1/exceptional.svg")
 
-MilCom Army CARD2 TEST:
+MilCom Army CARD2:
   ha-card-background: "center / auto repeat url('/local/milcomarmy/milcomarmy-card-alt1.png'), center / auto repeat url('https://raw.githubusercontent.com/Djelle/milcomarmy/main/themes/milcomarmy-card-alt1.png'), var(--card-background-color)"
   ha-card-border-color: "rgba(255,255,255,0.4) rgba(20,20,20,0.8) rgba(20,20,20,1.0) rgba(255,255,255,0.2)"
   ha-card-border-width: 2px
   card-background-color: "#333333"
 
-MilCom Army CARD3 TEST:
+MilCom Army CARD3:
   ha-card-background: "center / auto repeat url('/local/milcomarmy/milcomarmy-card-alt2.png'), center / auto repeat url('https://raw.githubusercontent.com/Djelle/milcomarmy/main/themes/milcomarmy-card-alt2.png'), var(--card-background-color)"
   ha-card-border-width: 2px
   ha-card-border-color: "rgba(206,213,146,0.4) rgba(32,35,28,0.8) rgba(32,35,28,1.0) rgba(206,213,146,0.2)"
