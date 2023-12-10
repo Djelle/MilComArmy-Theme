@@ -50,7 +50,7 @@ MilCom Army:
   ###map-filter: invert(0.0) hue-rotate(340deg) brightness(0.45) contrast(6) saturate(0.6)
 
   # BACKGROUNDS
-  lovelace-background: "center / auto no-repeat fixed url('/hacsfiles/themes/milcomarmy/milcom-bg.png'), center / auto no-repeat fixed url('/local/milcomarmy/milcom-bg.png'), #333333"
+  lovelace-background: "center / auto no-repeat fixed url('/local/milcomarmy/milcom-bg.png'), center / auto no-repeat fixed url('https://raw.githubusercontent.com/Djelle/milcomarmy/main/themes/milcom-bg.png'), #333333"
   primary-background-color: "#20231c"
   table-row-background-color: var(--card-background-color)
   secondary-background-color: var(--table-row-background-color) # Behind the cards on state
@@ -76,7 +76,7 @@ MilCom Army:
 
   # CARDS
   #ha-card-border-radius: 12px
-  ha-card-background: "center / auto repeat url('/hacsfiles/themes/milcomarmy/milcomarmy-card.png'), center / auto repeat url('/local/milcomarmy/milcomarmy-card.png')"
+  ha-card-background: "center / auto repeat url('/local/milcomarmy/milcomarmy-card.png'), center / auto repeat url('https://raw.githubusercontent.com/Djelle/milcomarmy/main/themes/milcomarmy-card.png')"
   ha-card-border-width: 2px
   ha-card-border-color: "rgba(206,213,146,0.4) rgba(32,35,28,0.8) rgba(32,35,28,1.0) rgba(206,213,146,0.2)"
   card-background-color: "#5a5f49"
@@ -212,13 +212,13 @@ MilCom Army:
   #weather-icon-exceptional: url("/hacsfiles/themes/caule-themes-pack-1/exceptional.svg")
 
 MilCom Army CARD2 TEST:
-  ha-card-background: "center / auto repeat url('/hacsfiles/themes/milcomarmy/milcomarmy-card-alt1.png'), center / auto repeat url('/local/milcomarmy/milcomarmy-card-alt1.png')"
+  ha-card-background: "center / auto repeat url('/local/milcomarmy/milcomarmy-card-alt1.png'), center / auto repeat url('https://raw.githubusercontent.com/Djelle/milcomarmy/main/themes/milcomarmy-card-alt1.png')"
   ha-card-border-color: "rgba(255,255,255,0.4) rgba(20,20,20,0.8) rgba(20,20,20,1.0) rgba(255,255,255,0.2)"
   ha-card-border-width: 2px
   card-background-color: "#333333"
 
 MilCom Army CARD3 TEST:
-  ha-card-background: "center / auto repeat url('/hacsfiles/themes/milcomarmy/milcomarmy-card-alt2.png'), center / auto repeat url('/local/milcomarmy/milcomarmy-card-alt2.png')"
+  ha-card-background: "center / auto repeat url('/local/milcomarmy/milcomarmy-card-alt2.png'), center / auto repeat url('https://raw.githubusercontent.com/Djelle/milcomarmy/main/themes/milcomarmy-card-alt2.png')"
   ha-card-border-width: 2px
   ha-card-border-color: "rgba(206,213,146,0.4) rgba(32,35,28,0.8) rgba(32,35,28,1.0) rgba(206,213,146,0.2)"
   card-background-color: "#5a5f49"
