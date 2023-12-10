@@ -1,5 +1,5 @@
 MilCom Army:
-  
+
   # FONTS
   #primary-font-family: 'Comfortaa'
   #paper-font-common-base_-_font-family: "var(--primary-font-family)"
@@ -35,6 +35,8 @@ MilCom Army:
   accent-color: "#eee148"
   divider-color: rgba(0, 0, 0, 0.7)
 
+  #graph-color: #Does this exist?
+
   scrollbar-thumb-color: "#cccccc"
 
   error-color: "#f4251b"
@@ -45,9 +47,10 @@ MilCom Army:
   # GOOGLE MAP
   #map-filter: invert(.9) hue-rotate(170deg) brightness(1.5) contrast(1.2) saturate(.3) # Original
   map-filter: invert(0.85) hue-rotate(150deg) brightness(1.4) contrast(1.6) saturate(0.4)
+  ###map-filter: invert(0.0) hue-rotate(340deg) brightness(0.45) contrast(6) saturate(0.6)
 
   # BACKGROUNDS
-  lovelace-background: "center / auto no-repeat fixed url('/hacsfiles/themes/milcomarmy/milcom-bg.png'), #333333"
+  lovelace-background: "center / auto no-repeat fixed url('/hacsfiles/themes/milcomarmy/milcom-bg.png'), center / auto no-repeat fixed url('/local/milcomarmy/milcom-bg.png'), #333333"
   primary-background-color: "#20231c"
   table-row-background-color: var(--card-background-color)
   secondary-background-color: var(--table-row-background-color) # Behind the cards on state
@@ -73,7 +76,7 @@ MilCom Army:
 
   # CARDS
   #ha-card-border-radius: 12px
-  ha-card-background: "center / auto repeat url('/hacsfiles/themes/milcomarmy/milcomarmy-card.png')"
+  ha-card-background: "center / auto repeat url('/hacsfiles/themes/milcomarmy/milcomarmy-card.png'), center / auto repeat url('/local/milcomarmy/milcomarmy-card.png')"
   ha-card-border-width: 2px
   ha-card-border-color: "rgba(206,213,146,0.4) rgba(32,35,28,0.8) rgba(32,35,28,1.0) rgba(206,213,146,0.2)"
   card-background-color: "#5a5f49"
@@ -101,13 +104,13 @@ MilCom Army:
   #state-unknown-color: "#606060"
   #state-idle-color: "#7990a3"
 
-  # TOGGLES (from Kibibit)
+  # TOGGLES
   #paper-toggle-button-checked-button-color: "#484848"
   #paper-toggle-button-checked-bar-color: "#484848"
   #paper-toggle-button-unchecked-button-color: var(--paper-toggle-button-checked-button-color)
   #paper-toggle-button-unchecked-bar-color: var(--disabled-text-color)
 
-  # SWITCHES (from Kibibit)
+  # SWITCHES
   switch-checked-color: var(--accent-color)
   switch-checked-track-color: "#000000" #var(--switch-checked-color)
   #switch-checked-button-color: var(--switch-checked-color)
@@ -128,6 +131,7 @@ MilCom Army:
   input-dropdown-icon-color: var(--input-ink-color)
   input-disabled-fill-color: var(--input-fill-color)
   input-disabled-ink-color: var(--disabled-text-color)
+  #input-disabled-label-ink-color: var(--disabled-text-color)
   #input-idle-line-color: rgba(0, 0, 0, 0.42);
   #input-hover-line-color: #rgba(0, 0, 0, 0.87);
   #input-disabled-line-color: rgba(0, 0, 0, 0.06);
@@ -148,7 +152,7 @@ MilCom Army:
   #mdc-select-outlined-hover-border-color: var(--input-outlined-hover-border-color)
   #mdc-select-outlined-disabled-border-color: var(--input-outlined-disabled-border-color)
 
-  # OTHER (from Kibibit)
+  # OTHER
   #paper-dialog-background-color: rgba(55, 55, 55, 0.6)
   #paper-item-icon-color: white  # also should mini-media-player icon white (but doesn't work by itself)
   #more-info-header-background: rgba(25, 25, 25, 0.5)
@@ -185,22 +189,36 @@ MilCom Army:
   #light-secondary-opacity: 0.7;
   #light-primary-opacity: 1.0;
 
-  # RGB
-  #rgb-primary-color: 3, 169, 244;
-  #rgb-accent-color: 255, 152, 0;
-  #rgb-primary-text-color: 33, 33, 33;
-  #rgb-secondary-text-color: 114, 114, 114;
-  #rgb-text-primary-color: 255, 255, 255;
-  #rgb-card-background-color: 255, 255, 255;
+  # MINI MEDIA PLAYER
+  #mini-media-player-icon-color: var(--primary-color)
+  #mini-media-player-accent-color: var(--primary-color)
+  #mini-media-player-progress-height: 8px
 
-MilCom Army CARD2:
-  ha-card-background: "center / auto repeat url('/hacsfiles/themes/milcomarmy/milcomarmy-card-alt1.png')"
+  #WEATHER ICONS
+  #weather-icon-clear-night: url("/hacsfiles/themes/caule-themes-pack-1/clear-night.svg")
+  #weather-icon-cloudy: url("/hacsfiles/themes/caule-themes-pack-1/cloudy.svg")
+  #weather-icon-fog: url("/hacsfiles/themes/caule-themes-pack-1/fog.svg")
+  #weather-icon-lightning: url("/hacsfiles/themes/caule-themes-pack-1/lightning.svg")
+  #weather-icon-lightning-rainy: url("/hacsfiles/themes/caule-themes-pack-1/lightning-rainy.svg")
+  #weather-icon-partlycloudy: url("/hacsfiles/themes/caule-themes-pack-1/partlycloudy.svg")
+  #weather-icon-pouring: url("/hacsfiles/themes/caule-themes-pack-1/pouring.svg")
+  #weather-icon-rainy: url("/hacsfiles/themes/caule-themes-pack-1/rainy.svg")
+  #weather-icon-hail: url("/hacsfiles/themes/caule-themes-pack-1/hail.svg")
+  #weather-icon-snowy: url("/hacsfiles/themes/caule-themes-pack-1/snowy.svg")
+  #weather-icon-snowy-rainy: url("/hacsfiles/themes/caule-themes-pack-1/snowy-rainy.svg")
+  #weather-icon-sunny: url("/hacsfiles/themes/caule-themes-pack-1/sunny.svg")
+  #weather-icon-windy: url("/hacsfiles/themes/caule-themes-pack-1/windy.svg")
+  #weather-icon-windy-variant: url("/hacsfiles/themes/caule-themes-pack-1/windy-variant.svg")
+  #weather-icon-exceptional: url("/hacsfiles/themes/caule-themes-pack-1/exceptional.svg")
+
+MilCom Army CARD2 TEST:
+  ha-card-background: "center / auto repeat url('/hacsfiles/themes/milcomarmy/milcomarmy-card-alt1.png'), center / auto repeat url('/local/milcomarmy/milcomarmy-card-alt1.png')"
   ha-card-border-color: "rgba(255,255,255,0.4) rgba(20,20,20,0.8) rgba(20,20,20,1.0) rgba(255,255,255,0.2)"
   ha-card-border-width: 2px
   card-background-color: "#333333"
 
-MilCom Army CARD3:
-  ha-card-background: "center / auto repeat url('/hacsfiles/themes/milcomarmy/milcomarmy-card-alt2.png')"
+MilCom Army CARD3 TEST:
+  ha-card-background: "center / auto repeat url('/hacsfiles/themes/milcomarmy/milcomarmy-card-alt2.png'), center / auto repeat url('/local/milcomarmy/milcomarmy-card-alt2.png')"
   ha-card-border-width: 2px
   ha-card-border-color: "rgba(206,213,146,0.4) rgba(32,35,28,0.8) rgba(32,35,28,1.0) rgba(206,213,146,0.2)"
   card-background-color: "#5a5f49"
