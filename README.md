@@ -4,6 +4,7 @@ A theme for Home Assistant.
 ## UPDATE v2.0:
 - Fixed sliders having some wrong colors.
 - Renamed the sub-themes to something human readable. Which means that if you have used these, you will need to reselect them in the dashboard editor for each card affected. Sorry about the trouble.
+- Changed the color of MilCom Army - Emphasize (former MilCom Army CARD3) to dark red.
 - Added a new sub-theme: MilCom Army - Attention.
 - Noticed that not all of the sub-themes attributes was inherited from the main theme. So added all attributes related to cards to each sub-theme.
 
