@@ -47,6 +47,7 @@ MilCom Army:
   # GOOGLE MAP
   #map-filter: invert(.9) hue-rotate(170deg) brightness(1.5) contrast(1.2) saturate(.3) # Original
   map-filter: invert(0.85) hue-rotate(150deg) brightness(1.4) contrast(1.6) saturate(0.4)
+  ###map-filter: invert(0.0) hue-rotate(340deg) brightness(0.45) contrast(6) saturate(0.6)
 
   # BACKGROUNDS
   lovelace-background: "center / auto no-repeat fixed url('/local/milcomarmy/milcom-bg.png'), center / auto no-repeat fixed url('https://raw.githubusercontent.com/Djelle/milcomarmy/main/themes/milcom-bg.png'), #333333"
@@ -116,6 +117,13 @@ MilCom Army:
   switch-unchecked-color: var(--secondary-text-color)
   #switch-unchecked-button-color: var(--switch-unchecked-color)
   switch-unchecked-track-color: "#000000" #var(--switch-unchecked-color)
+
+  # SLIDERS
+  #md-slider-active-track-color:
+  #md-slider-handle-color:
+  md-slider-inactive-track-color: "#000000"
+  #md-slider-label-container-color: 
+  md-slider-label-text-color: "#000000"
 
   # MISC FIELDS
   #outline-color:
@@ -210,14 +218,83 @@ MilCom Army:
   #weather-icon-windy-variant: url("/hacsfiles/themes/caule-themes-pack-1/windy-variant.svg")
   #weather-icon-exceptional: url("/hacsfiles/themes/caule-themes-pack-1/exceptional.svg")
 
-MilCom Army CARD2:
+MilCom Army - Monotone:
   ha-card-background: "center / auto repeat url('/local/milcomarmy/milcomarmy-card-alt1.png'), center / auto repeat url('https://raw.githubusercontent.com/Djelle/milcomarmy/main/themes/milcomarmy-card-alt1.png'), var(--card-background-color)"
   ha-card-border-color: "rgba(255,255,255,0.4) rgba(20,20,20,0.8) rgba(20,20,20,1.0) rgba(255,255,255,0.2)"
   ha-card-border-width: 2px
   card-background-color: "#333333"
+  ha-card-box-shadow: "1px 2px 4px 0px #000"
+  label-badge-text-color: var(--secondary-text-color)
+  label-badge-grey: var(--disabled-text-color)
+  state-icon-color: var(--secondary-text-color)
+  state-icon-active-color: var(--accent-color)
+  state-icon-error-color: var(--error-color)
+  switch-checked-color: var(--accent-color)
+  switch-checked-track-color: "#000000"
+  switch-unchecked-color: var(--secondary-text-color)
+  switch-unchecked-track-color: "#000000"
+  md-slider-inactive-track-color: "#000000"
+  md-slider-label-text-color: "#000000"
+  mdc-checkbox-checked-color: "#222222"
+  mdc-checkbox-unchecked-color: "#222222"
+  input-fill-color: "#20231c"
+  input-ink-color: "#e2e7c7"
+  input-label-ink-color: "#ffffff"
+  input-dropdown-icon-color: var(--input-ink-color)
+  input-disabled-fill-color: var(--input-fill-color)
+  input-disabled-ink-color: var(--disabled-text-color)
+  mdc-select-fill-color: var(--input-fill-color)
 
-MilCom Army CARD3:
-  ha-card-background: "center / auto repeat url('/local/milcomarmy/milcomarmy-card-alt2.png'), center / auto repeat url('https://raw.githubusercontent.com/Djelle/milcomarmy/main/themes/milcomarmy-card-alt2.png'), var(--card-background-color)"
+MilCom Army - Emphasize:
+  ha-card-background: "center / auto repeat url('/local/milcomarmy/milcomarmy-card-alt2v2.png'), center / auto repeat url('https://raw.githubusercontent.com/Djelle/milcomarmy/main/themes/milcomarmy-card-alt2v2.png'), var(--card-background-color)"
+  ha-card-border-width: 2px
+  ha-card-border-color: "rgba(213,145,145,0.4) rgba(32,35,28,0.8) rgba(32,35,28,1.0) rgba(213,145,145,0.2)"
+  card-background-color: "#8f2b2b"
+  ha-card-box-shadow: "1px 2px 4px 0px #000"
+  label-badge-text-color: var(--secondary-text-color)
+  label-badge-grey: var(--disabled-text-color)
+  state-icon-color: var(--secondary-text-color)
+  state-icon-active-color: var(--accent-color)
+  state-icon-error-color: var(--error-color)
+  switch-checked-color: var(--accent-color)
+  switch-checked-track-color: "#000000"
+  switch-unchecked-color: var(--secondary-text-color)
+  switch-unchecked-track-color: "#000000"
+  md-slider-inactive-track-color: "#000000"
+  md-slider-label-text-color: "#000000"
+  mdc-checkbox-checked-color: "#222222"
+  mdc-checkbox-unchecked-color: "#222222"
+  input-fill-color: "#20231c"
+  input-ink-color: "#e2e7c7"
+  input-label-ink-color: "#ffffff"
+  input-dropdown-icon-color: var(--input-ink-color)
+  input-disabled-fill-color: var(--input-fill-color)
+  input-disabled-ink-color: var(--disabled-text-color)
+  mdc-select-fill-color: var(--input-fill-color)
+
+MilCom Army - Attention:
+  ha-card-background: "center / auto repeat url('/local/milcomarmy/milcomarmy-card-alt3.png'), center / auto repeat url('https://raw.githubusercontent.com/Djelle/milcomarmy/main/themes/milcomarmy-card-alt3.png'), var(--card-background-color)"
   ha-card-border-width: 2px
   ha-card-border-color: "rgba(206,213,146,0.4) rgba(32,35,28,0.8) rgba(32,35,28,1.0) rgba(206,213,146,0.2)"
   card-background-color: "#5a5f49"
+  ha-card-box-shadow: "1px 2px 4px 0px #000"
+  label-badge-text-color: var(--secondary-text-color)
+  label-badge-grey: var(--disabled-text-color)
+  state-icon-color: var(--secondary-text-color)
+  state-icon-active-color: var(--accent-color)
+  state-icon-error-color: var(--error-color)
+  switch-checked-color: var(--accent-color)
+  switch-checked-track-color: "#000000"
+  switch-unchecked-color: var(--secondary-text-color)
+  switch-unchecked-track-color: "#000000"
+  md-slider-inactive-track-color: "#000000"
+  md-slider-label-text-color: "#000000"
+  mdc-checkbox-checked-color: "#222222"
+  mdc-checkbox-unchecked-color: "#222222"
+  input-fill-color: "#20231c"
+  input-ink-color: "#e2e7c7"
+  input-label-ink-color: "#ffffff"
+  input-dropdown-icon-color: var(--input-ink-color)
+  input-disabled-fill-color: var(--input-fill-color)
+  input-disabled-ink-color: var(--disabled-text-color)
+  mdc-select-fill-color: var(--input-fill-color)
