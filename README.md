@@ -1,3 +1,5 @@
+[![hacs_badge](https://img.shields.io/badge/HACS-Default-blue.svg?style=for-the-badge)](https://github.com/custom-components/hacs)
+
 # Military Communication - Army Green
 A theme for Home Assistant.
 
